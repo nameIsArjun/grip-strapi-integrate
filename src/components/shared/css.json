@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_csses",
+  "info": {
+    "displayName": "CSS"
+  },
+  "options": {},
+  "attributes": {
+    "data": {
+      "type": "json"
+    },
+    "elementIdenttifier": {
+      "type": "string"
+    }
+  }
+}

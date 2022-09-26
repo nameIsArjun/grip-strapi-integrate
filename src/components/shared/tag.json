@@ -2,7 +2,8 @@
   "collectionName": "components_shared_tags",
   "info": {
     "displayName": "Tag",
-    "icon": "backward"
+    "icon": "backward",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,12 +11,13 @@
       "type": "string"
     },
     "infoImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "identifier": {
       "type": "string",

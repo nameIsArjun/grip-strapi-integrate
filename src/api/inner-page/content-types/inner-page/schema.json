@@ -29,7 +29,8 @@
         "shared.meta-social",
         "shared.seo",
         "shared.tag",
-        "shared.text-box"
+        "shared.text-box",
+        "shared.css"
       ]
     },
     "url": {

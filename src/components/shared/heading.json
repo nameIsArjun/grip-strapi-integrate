@@ -2,7 +2,8 @@
   "collectionName": "components_shared_headings",
   "info": {
     "displayName": "Heading",
-    "icon": "angle-right"
+    "icon": "angle-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
