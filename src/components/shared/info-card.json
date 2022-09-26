@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_info_cards",
+  "info": {
+    "displayName": "InfoCard",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image"
+    },
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.text-box"
+    },
+    "SubHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.text-box"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.text-box"
+    },
+    "contentList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-box"
+    },
+    "identifier": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}

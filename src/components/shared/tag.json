@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_tags",
+  "info": {
+    "displayName": "Tag",
+    "icon": "backward"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "infoImage": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "identifier": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

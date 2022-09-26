@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_text_boxes",
+  "info": {
+    "displayName": "TextBox",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "identifier": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}

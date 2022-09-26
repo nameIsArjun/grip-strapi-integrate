@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_jsons",
+  "info": {
+    "displayName": "JSON"
+  },
+  "options": {},
+  "attributes": {
+    "data": {
+      "type": "json"
+    },
+    "identifier": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}

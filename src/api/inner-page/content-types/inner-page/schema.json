@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inner_pages",
+  "info": {
+    "singularName": "inner-page",
+    "pluralName": "inner-pages",
+    "displayName": "innerPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "element": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.button",
+        "shared.chart",
+        "shared.faq",
+        "shared.gtm",
+        "shared.heading",
+        "shared.image",
+        "shared.info-card",
+        "shared.json",
+        "shared.link",
+        "shared.menu-item",
+        "shared.menu",
+        "shared.meta-social",
+        "shared.seo",
+        "shared.tag",
+        "shared.text-box"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

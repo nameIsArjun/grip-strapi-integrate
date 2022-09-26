@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "disabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "clickUrl": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "danger"
+      ]
+    },
+    "displayText": {
+      "type": "richtext"
+    }
+  }
+}

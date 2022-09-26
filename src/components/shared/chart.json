@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_charts",
+  "info": {
+    "displayName": "Chart",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "dataSet": {
+      "type": "json"
+    },
+    "identifier": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

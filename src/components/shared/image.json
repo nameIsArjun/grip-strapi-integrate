@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "clickUrl": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

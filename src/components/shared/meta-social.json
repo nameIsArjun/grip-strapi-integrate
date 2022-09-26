@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_meta_socials",
+  "info": {
+    "displayName": "metaSocial"
+  },
+  "options": {},
+  "attributes": {
+    "keywords": {
+      "type": "text"
+    },
+    "metaRobots": {
+      "type": "text"
+    },
+    "structuredData": {
+      "type": "json"
+    }
+  }
+}

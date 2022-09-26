@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_gtms",
+  "info": {
+    "displayName": "GTM"
+  },
+  "options": {},
+  "attributes": {
+    "eventName": {
+      "type": "string"
+    },
+    "eventBody": {
+      "type": "json"
+    },
+    "eventTrigger": {
+      "type": "string"
+    },
+    "invokeID": {
+      "type": "string"
+    }
+  }
+}
