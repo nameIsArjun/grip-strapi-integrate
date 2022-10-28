@@ -7,16 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "Question": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.text-box"
-    },
-    "Answer": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.text-box"
-    },
     "faq_categories": {
       "type": "relation",
       "relation": "oneToMany",
@@ -25,12 +15,18 @@
     "identifier": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "css": {
       "type": "component",
       "repeatable": false,
       "component": "shared.css"
+    },
+    "Question": {
+      "type": "text"
+    },
+    "Answer": {
+      "type": "richtext"
     }
   }
 }

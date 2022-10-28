@@ -1,0 +1,100 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vendors",
+  "info": {
+    "singularName": "vendor",
+    "pluralName": "vendors",
+    "displayName": "Vendor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "VendorName": {
+      "type": "string"
+    },
+    "Dynamic": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.button",
+        "shared.chart",
+        "shared.css",
+        "shared.faq",
+        "shared.gtm",
+        "shared.heading",
+        "shared.image",
+        "shared.info-card",
+        "shared.json",
+        "shared.link",
+        "shared.menu-item",
+        "shared.menu",
+        "shared.meta-social",
+        "shared.seo",
+        "shared.tag",
+        "shared.text-box"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "Twiiter_URL": {
+      "type": "string"
+    },
+    "Instagram_URL": {
+      "type": "string"
+    },
+    "LinkedIn_URL": {
+      "type": "string"
+    },
+    "Facebook_URL": {
+      "type": "string"
+    },
+    "Vendor_Address": {
+      "type": "text"
+    },
+    "Vendor_Description": {
+      "type": "text"
+    },
+    "Vendor_Email": {
+      "type": "string"
+    },
+    "TermsAndConditions_URL": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "Privacy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "colorScheme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.color-scheme"
+    },
+    "Quick_Faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "terms": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "privacy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

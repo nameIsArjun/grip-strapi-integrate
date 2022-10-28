@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_color_components",
+  "info": {
+    "displayName": "colorComponent",
+    "icon": "tint"
+  },
+  "options": {},
+  "attributes": {
+    "primary": {
+      "type": "string"
+    },
+    "secondary": {
+      "type": "string"
+    }
+  }
+}

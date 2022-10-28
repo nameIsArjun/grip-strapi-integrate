@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_color_schemes",
+  "info": {
+    "displayName": "colorScheme",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.color-component"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.color-component"
+    },
+    "web": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.color-component"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.color-component"
+    }
+  }
+}
