@@ -106,9 +106,3 @@ coverage
 # Strapi
 ############################
 
-
-license.txt
-exports
-*.cache
-build
-.strapi-updater.json
