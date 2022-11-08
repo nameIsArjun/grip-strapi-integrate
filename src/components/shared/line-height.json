@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_line_heights",
+  "info": {
+    "displayName": "lineHeight",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "sm": {
+      "type": "decimal",
+      "default": 1.25,
+      "min": 1
+    },
+    "md": {
+      "type": "decimal",
+      "default": 1.5,
+      "min": 1
+    },
+    "lg": {
+      "type": "decimal",
+      "default": 1.75,
+      "min": 1
+    }
+  }
+}

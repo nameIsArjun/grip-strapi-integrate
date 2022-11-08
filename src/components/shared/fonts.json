@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_fonts",
+  "info": {
+    "displayName": "Fonts",
+    "icon": "basketball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "string",
+      "default": "'Inter, sans-serif'"
+    },
+    "heading": {
+      "type": "string",
+      "default": "'\"Avenir Next\", sans-serif'"
+    },
+    "monospace": {
+      "type": "string",
+      "default": "'Menlo, monospace'"
+    }
+  }
+}

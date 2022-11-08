@@ -15,27 +15,6 @@
     "VendorName": {
       "type": "string"
     },
-    "Dynamic": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.button",
-        "shared.chart",
-        "shared.css",
-        "shared.faq",
-        "shared.gtm",
-        "shared.heading",
-        "shared.image",
-        "shared.info-card",
-        "shared.json",
-        "shared.link",
-        "shared.menu-item",
-        "shared.menu",
-        "shared.meta-social",
-        "shared.seo",
-        "shared.tag",
-        "shared.text-box"
-      ]
-    },
     "logo": {
       "type": "media",
       "multiple": false,
@@ -76,11 +55,6 @@
       "repeatable": false,
       "component": "shared.link"
     },
-    "colorScheme": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.color-scheme"
-    },
     "Quick_Faq": {
       "type": "component",
       "repeatable": true,
@@ -98,6 +72,11 @@
     },
     "vendorID": {
       "type": "string"
+    },
+    "theme": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::theme.theme"
     }
   }
 }

@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_shared_font_sizes",
+  "info": {
+    "displayName": "fontSize",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "xxs": {
+      "type": "integer",
+      "default": 10,
+      "min": 2
+    },
+    "xs": {
+      "type": "integer",
+      "default": 12,
+      "min": 2
+    },
+    "sm": {
+      "type": "integer",
+      "default": 14,
+      "min": 2
+    },
+    "md": {
+      "type": "integer",
+      "default": 16,
+      "min": 2
+    },
+    "lg": {
+      "type": "integer",
+      "default": 18,
+      "min": 2
+    },
+    "xl": {
+      "type": "integer",
+      "default": 20,
+      "min": 2
+    },
+    "xxl": {
+      "type": "integer",
+      "default": 24,
+      "min": 2
+    },
+    "xxxl": {
+      "type": "integer",
+      "default": 28,
+      "min": 2
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_shadows",
+  "info": {
+    "displayName": "shadows",
+    "icon": "barcode",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "highlight": {
+      "type": "string",
+      "default": "#e5f1ff"
+    },
+    "amountInput": {
+      "type": "string",
+      "default": "0px 0px 0px 4px #e5f1ff"
+    }
+  }
+}

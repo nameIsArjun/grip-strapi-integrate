@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_border_widths",
+  "info": {
+    "displayName": "BorderWidth",
+    "icon": "battery-full"
+  },
+  "options": {},
+  "attributes": {
+    "default": {
+      "type": "string",
+      "default": "1px"
+    }
+  }
+}

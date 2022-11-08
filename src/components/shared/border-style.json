@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_border_styles",
+  "info": {
+    "displayName": "BorderStyle",
+    "icon": "battery-empty"
+  },
+  "options": {},
+  "attributes": {
+    "default": {
+      "type": "string",
+      "default": "solid"
+    }
+  }
+}

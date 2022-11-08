@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_shared_font_weights",
+  "info": {
+    "displayName": "fontWeight",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "ultraMaxBold": {
+      "type": "integer",
+      "default": 900
+    },
+    "maxBold": {
+      "type": "integer",
+      "default": 800
+    },
+    "ultraBold": {
+      "type": "integer",
+      "default": 700
+    },
+    "bold": {
+      "type": "integer",
+      "default": 600
+    },
+    "midBold": {
+      "type": "integer",
+      "default": 500
+    },
+    "light": {
+      "type": "integer",
+      "default": 400
+    },
+    "lighter": {
+      "type": "integer",
+      "default": 300
+    },
+    "ultaLight": {
+      "type": "integer",
+      "default": 200
+    },
+    "maxLight": {
+      "type": "integer",
+      "default": 100
+    }
+  }
+}
