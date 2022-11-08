@@ -38,11 +38,6 @@
     "Styles": {
       "type": "json"
     },
-    "Border": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.border"
-    },
     "Shadow": {
       "type": "component",
       "repeatable": false,
@@ -52,6 +47,16 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.fonts"
+    },
+    "BorderStyle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.border-style"
+    },
+    "BorderWidth": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.border-width"
     }
   }
 }

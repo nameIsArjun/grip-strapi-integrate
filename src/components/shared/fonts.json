@@ -9,7 +9,7 @@
   "attributes": {
     "body": {
       "type": "string",
-      "default": "'Inter, sans-serif'"
+      "default": "Inter, sans-serif"
     },
     "heading": {
       "type": "string",
