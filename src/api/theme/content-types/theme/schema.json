@@ -47,6 +47,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.shadows"
+    },
+    "Fonts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.fonts"
     }
   }
 }

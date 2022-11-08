@@ -2,7 +2,8 @@
   "collectionName": "components_shared_fonts",
   "info": {
     "displayName": "Fonts",
-    "icon": "basketball-ball"
+    "icon": "basketball-ball",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -17,6 +18,14 @@
     "monospace": {
       "type": "string",
       "default": "'Menlo, monospace'"
+    },
+    "font": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
     }
   }
 }
